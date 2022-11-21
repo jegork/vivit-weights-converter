@@ -64,7 +64,7 @@ def get_n_layers(state_dict):
 
 
 if __name__ == '__main__':
-    parser = argparse.ParseArguments()
+    parser = argparse.ArgumentParser()
     
     parser.add_argument('--flax_model', type=str, help='Path to flax model')
     parser.add_argument('--output_model_name', type=str, help='Name of the outputed file')
